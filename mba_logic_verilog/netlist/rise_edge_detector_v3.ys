@@ -1,0 +1,3 @@
+read_verilog -sv -formal -overwrite {workspace}/rise_edge_detector_v3.v
+design -reset-vlog; proc;
+write_json {workspace}/netlist/rise_edge_detector_v3.json

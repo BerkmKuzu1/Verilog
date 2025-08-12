@@ -1,0 +1,5 @@
+D Flip Flop Nedir?
+
+A D flip-flops copies D to Q on the rising edge of the clock and remembers it's state at all other times. 
+
+crucial and significant baboli .d

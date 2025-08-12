@@ -1,0 +1,3 @@
+read_verilog -sv -formal -overwrite {workspace}/d_flip_flop_asc_rst.v
+design -reset-vlog; proc;
+write_json {workspace}/netlist/d_flip_flop_asc_rst.json
