@@ -1,3 +1,0 @@
-read_verilog -sv -formal -overwrite {workspace}/14_video_asansor.v
-design -reset-vlog; proc;
-write_json {workspace}/netlist/video_14_asansor.json

@@ -1,3 +1,0 @@
-read_verilog -sv -formal -overwrite {workspace}/counter_param.v
-design -reset-vlog; proc;
-write_json {workspace}/netlist/counter_param.json
